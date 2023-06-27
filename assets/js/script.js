@@ -8,14 +8,17 @@ function getRandomIntInclusive(min, max) {
 
   let rollDice = () => getRandomIntInclusive(1, 6);
 
+  
+
   document.getElementById("roll").addEventListener("click", function () {
     
-  // Roll dice for player
+  // Roll dice
     const player1Score = rollDice();
     
   // Empty string to store result
     let result = "";
-  // Display the result
+  // Display result
     document.getElementById("results").innerHTML = `
     <p>${player1Score}</p>`;
   });
+
