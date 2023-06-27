@@ -1,26 +1,32 @@
+function diceroll(num) {
+  let randomNumber = Math.floor(Math.random() * num) + 1;
+    console.log("bananwaffle")
+    printNumber(randomNumber)
+}
 
-// Generate random number 
-function getRandomIntInclusive(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1) + min);
-  }
+//Print diceroll
 
-  let rollDice = () => getRandomIntInclusive(1, 6);
+function printNumber(number) {
+  let placeholder = document.getElementById('placeholder');
+  placeholder.innerText = number;
+}
 
+let button = document.getElementById('button');
 
-  // Clicke button
-  document.getElementById("roll").addEventListener("click", function () {
-    
-  // Select function
+button.onclick = function() {
+  
+let diceSide = document.getElementById('diceSide');
+     let selected = diceSide.options[diceSide.selectedIndex].text;
+     if(selected === 'sixSided'){
+      diceroll(6);
+     } else if (selected === 'eightSided') {
+      diceroll(8);
+    } else if (selected === 'tenSided') {
+      diceroll(10);
+    } else if (selected === 'twentySided') {
+      diceroll(20);
+    } else {
 
-  // Roll dice
-    const player1Score = rollDice();
-    
-  // Empty string to store result
-    let result = "";
-  // Display result
-    document.getElementById("results").innerHTML = `
-    <p>${player1Score}</p>`;
-  });
-
+    }
+    printNumber(result);
+  };
