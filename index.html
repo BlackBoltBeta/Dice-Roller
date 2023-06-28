@@ -4,31 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="assets/css/stryle.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <div id="header">
+        <h1>Dice Roller</h1>
+    </header>
     <section>
-        <div id="select-container">
+     <div id="wrapper">
+      <div id="content-box">
+            <h3>Simple to use!</h3>
+               <p>
+                Here is a handy dice for when you need one.<br>
+                 Select below the type of die you want to roll and click "Roll dice."
+               </p>
+       <div id="content-box">
             <div id="select-box">
-                <label for="diceSide">Choose dice:</label>
+                <label for="diceSide"><h3>Choose dice:</h3></label>
                 <select name="diceSide" id="diceSide">
-                    <option value="sixSided">sixSided</option>
-                    <option value="eightSided">eightSided</option>
-                    <option value="tenSided">tenSided</option>
-                    <option value="twentySided">twentySided</option>
+                   <option value="sixSided">sixSided</option>
+                   <option value="eightSided">eightSided</option>
+                   <option value="tenSided">tenSided</option>
+                   <option value="twentySided">twentySided</option>
                 </select>
             </div>
-        </div>
-          <div id="select-box">
+        <div id="select-box">
             <p id="placeholder">
-  
+                  
             </p>
             <button id="button">Roll Dice</button>
-          </div>
+        </div>
+      </div>
+        </div>
+       </div>
+            <div id="footer"><p>Footer</p>
+      </div>
+     </div>
     </section>
-    <footer id="footer"></footer>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
