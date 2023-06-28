@@ -18,13 +18,13 @@ button.onclick = function() {
   
 let diceSide = document.getElementById('diceSide');
      let selected = diceSide.options[diceSide.selectedIndex].text;
-     if(selected === 'sixSided'){
+     if(selected === 'SixSided'){
       diceroll(6);
-     } else if (selected === 'eightSided') {
+     } else if (selected === 'EightSided') {
       diceroll(8);
-    } else if (selected === 'tenSided') {
+    } else if (selected === 'TenSided') {
       diceroll(10);
-    } else if (selected === 'twentySided') {
+    } else if (selected === 'TwentySided') {
       diceroll(20);
     }
     printNumber(result);

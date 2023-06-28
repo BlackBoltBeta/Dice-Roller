@@ -15,18 +15,6 @@
     cursor: pointer;
   }
 
-#themeButton {
-    background-color: #FF0303;
-    border-radius: 6px;
-    border: none;
-    color: white;
-    padding: 10px;
-    text-transform: uppercase;
-    width: 20px;
-    cursor: pointer;
-  }
-  
-  
 html, body {
     margin: 0;
     padding: 0;
@@ -99,12 +87,17 @@ h3 {
     top: 20px;
     right: 20px;
     border: none;
-    font-size: 30px;
-    color: #222222;
+    font-size: 20px;
     position: absolute;
+    background-color: #FF0303;
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
   }
   
 #themeButton > i {
     color: #cdfd03;
-    background-color: #222222;
+    background-color: #FF0303;
   }
