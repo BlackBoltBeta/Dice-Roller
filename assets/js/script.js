@@ -15,20 +15,21 @@ let button = document.getElementById('button');
 
 // Select dice type
 button.onclick = function() {
-  
-let diceSide = document.getElementById('diceSide');
-     let selected = diceSide.options[diceSide.selectedIndex].text;
-     if(selected === 'SixSided'){
-      diceroll(6);
-     } else if (selected === 'EightSided') {
-      diceroll(8);
-    } else if (selected === 'TenSided') {
-      diceroll(10);
-    } else if (selected === 'TwentySided') {
-      diceroll(20);
-    }
-    printNumber(result);
-  };
+  let diceSide = document.getElementById('diceSide');
+
+  let selected = diceSide.options[diceSide.selectedIndex].text;
+
+  if(selected === 'SixSided'){
+   diceroll(6);
+  } else if (selected === 'EightSided') {
+   diceroll(8);
+ } else if (selected === 'TenSided') {
+   diceroll(10);
+ } else if (selected === 'TwentySided') {
+   diceroll(20);
+ }
+
+};
 
   // Variables from DOM
 const themeButton = document.getElementById("themeButton");
