@@ -1,0 +1,110 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+  
+/* Buttons */
+#button {
+    background-color: #64CCC5;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+  }
+
+#themeButton {
+    background-color: #64CCC5;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 20px;
+    cursor: pointer;
+  }
+  
+  
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    color: #D2E9E9;
+    font: 90% Roboto, Arial, sans-serif;
+    font-weight: 300;
+    background-color: #001C30;
+  }
+  
+p {
+    padding: 0 10px;
+    line-height: 1.8;
+  }
+  
+h3 {
+    padding: 5px 20px;
+    margin: 0;
+  }
+  
+#header {
+    position: relative;
+    width: 100%;
+  }
+  
+#header h1 {
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    background: #176B87;
+    color: black;
+  }
+  
+#footer p {
+    padding: 20px 10px;
+  }
+  
+#footer {
+    clear: both;
+    width: 100%;
+    background: #176B87 ;
+    color: #fff;
+  }
+  
+#placeholder {
+    height: 90px;
+    width: 90px;
+    padding: 30px;
+    margin: 50px auto;
+    border: 2px solid #64CCC5;
+    border-radius: 10px;  
+    font-size:50px;
+    color: #DAFFFB;
+  }
+  
+#content-box {
+    background-color: #001C30;
+  }
+
+#diceSide {
+    background: #2E3840;
+    color: #fff;
+  }
+
+/* Theme button */
+#themeButton {
+    top: 20px;
+    right: 20px;
+    border: none;
+    font-size: 30px;
+    color: #222222;
+    position: absolute;
+  }
+  
+#themeButton > i {
+    color: #cdfd03;
+    background-color: #222222;
+  }
