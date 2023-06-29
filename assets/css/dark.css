@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Open Sans, Arial, sans-serif;
     text-align: center;
   }
   
@@ -8,7 +10,7 @@
     background-color: #64CCC5;
     border-radius: 6px;
     border: none;
-    color: black;
+    color: white;
     padding: 10px;
     text-transform: uppercase;
     width: 200px;
@@ -22,7 +24,7 @@ html, body {
   
 body {
     color: #D2E9E9;
-    font: 90% Roboto, Arial, sans-serif;
+    font: 90% Open Sans, Arial, sans-serif;
     font-weight: 300;
     background-color: #001C30;
   }
