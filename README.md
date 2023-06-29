@@ -12,7 +12,7 @@ This is a simple dice-rolling website; it has a few types of different dice to o
 
   - This section will allow the user to choose what kind of die to roll; it currently has four choices: six-sided, eight-sided, ten-sided, and twenty-sided.
 
-![dice select]
+![Dice select](assets/images/dice-select.png)
 
 - __Giant dice__
 
