@@ -79,7 +79,7 @@ Resources and tutorials used for developing this project:
 - [JavaScript Simple Dice Roller](https://codepen.io/Pyremell/pen/eZGGXX/) by [Jacob Schaefer](https://codepen.io/Pyremell)
 -  [Roll dice!](https://codepen.io/lenasta92579651/pen/yLeVmdW) by [Lena Stanley](https://codepen.io/lenasta92579651/)
 
-Massive thanks to, [Lauren-Nicole Popich](https://www.linkedin.com/in/lauren-nicole-popich-1ab87539/) my Code Institute mentor, for her guidance.
+Massive thanks to [Lauren-Nicole Popich](https://www.linkedin.com/in/lauren-nicole-popich-1ab87539/) my Code Institute mentor, for her guidance.
 
 ### Content 
 
