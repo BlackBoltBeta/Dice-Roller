@@ -11,7 +11,7 @@
     <header>
         <div id="header">
         <h1>Dice Roller</h1>
-        <button id="themeButton" value="true">
+        <button id="themeButton" aria-label="change to dark mode" value="true">
             <i class="fa-solid fa-moon"></i>
         </button>
         </div>
@@ -25,7 +25,7 @@
                  Select below the type of die you want to roll and click "Roll dice."
                </p>
        <div class="content-box">
-            <div id="select-box">
+            <div>
                 <label for="diceSide"><h3>Choose dice:</h3></label>
                 <select name="diceSide" id="diceSide">
                    <option value="sixSided">SixSided</option>
@@ -34,11 +34,11 @@
                    <option value="twentySided">TwentySided</option>
                 </select>
             </div>
-        <div id="select-box">
+        <div>
             <p id="placeholder">
                   
             </p>
-            <button id="button">Roll Dice</button>
+            <button id="button" aria-label="roll dice">Roll Dice</button>
         </div>
       </div>
         </div>
