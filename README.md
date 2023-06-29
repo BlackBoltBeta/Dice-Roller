@@ -18,19 +18,20 @@ This is a simple dice-rolling website; it has a few types of different dice to o
 
   - The square in the center of the page will show the number generated after the user presses the button below.
 
-![giant dice]
+![Giant dice](assets/images/giant-dice.png)
 
 - __Dark or Light mode__
 
   - The page has a dark and light mode that can be switched between using the button on the top right side of the page.
 
-![Theme change]
+![Theme light](assets/images/theme-light.png)
+![Theme dark](assets/images/theme-dark.png)
 
 - __The Footer__ 
 
   - The footer section only has a brief disclaimer about the purpose of the website.
 
-![Footer]
+![Footer](assets/images/footer.png)
 
 
 ### Features Left to Implement
@@ -57,6 +58,9 @@ Nav bar - home page | Click nav buttons | That each nav element takes me to the 
 
 - JSHint
   - No errors were returned when testing script.js through the [JSHint Linter](https://jshint.com/)
+
+- Lighthouse Audit<br>
+![Lighthouse Audit](assets/images/lighthouse-audit.png)
 
 ## Deployment
 
